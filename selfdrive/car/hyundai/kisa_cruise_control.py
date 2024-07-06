@@ -405,9 +405,9 @@ class KisaCruiseControl():
     if len(self.sm['longitudinalPlan'].e2eX) > 12:
       self.e2e_x = self.sm['longitudinalPlan'].e2eX[12]
 
-    cut_in_model = True if self.lead_1.status and (self.lead_0.dRel - self.lead_1.dRel) > 3.0 and ((0 < self.lead_0.dRel < 85) or (0 < self.lead_1.dRel < 85)) else False
-    dist_sel = self.lead_1.dRel if 0 < self.lead_1.dRel < 85 else self.lead_0.dRel if 0 < self.lead_0.dRel < 85 else CS.lead_distance
-    cut_in_ed_rd_diff = True if 0 < CS.lead_distance <= 90 and (CS.lead_distance - dist_sel) > interp(CS.lead_distance, [10, 50], [3.0, 9.0]) else False
+    cut_in_model = True if self.lead_1.status and (self.lead_0.dRel - self.lead_1.dRel) > 3.0 and ((0 < self.lead_0.dRel < 95) or (0 < self.lead_1.dRel < 95)) else False
+    dist_sel = self.lead_1.dRel if 0 < self.lead_1.dRel < 95 else self.lead_0.dRel if 0 < self.lead_0.dRel < 95 else CS.lead_distance
+    cut_in_ed_rd_diff = True if 0 < CS.lead_distance <= 100 and (CS.lead_distance - dist_sel) > interp(CS.lead_distance, [10, 50], [3.0, 9.0]) else False
 
     if CS.CP.sccBus == 0 and CS.CP.openpilotLongitudinalControl:
       self.cut_in = cut_in_model or cut_in_ed_rd_diff
