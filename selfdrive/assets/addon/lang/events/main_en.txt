@@ -95,7 +95,7 @@ Steering paused, ISG is working
 Slowing Down for SpeedLimit
 RES triggered for Departure
 Adjusting Cruise Gap
-Auto RES triggered
+SCC resume triggered
 Slowing Down for Curve
 Slowing Down for Vehicle Cut-In
 Out of Storage
@@ -186,10 +186,10 @@ LKAS is Off status
 LKAS turned On
 UnSleep Mode turned On
 Slowing Down for SpeedBump
-SCC Set Speed Driver Override
+Driver Override SCC Speed 
 Do Not Disturb Mode On
 Touch Top-Left Box to turn Off
 Chime for Depart
-Slowing Down for Waze Alert
+SCC speed changed for Waze alert
 Poor GPS reception
 Ensure device has a clear view of the sky
