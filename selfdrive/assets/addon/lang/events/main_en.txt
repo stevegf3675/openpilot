@@ -1,8 +1,8 @@
-openpilot Unavailable
+kisapilot Unavailable
 TAKE CONTROL IMMEDIATELY
-openpilot will disengage
+kisapilot will disengage
 TAKE CONTROL IMMEDIATELY
-Always keep hands on wheel and eyes on road
+Always keep your eyes on road
 Speed Below
 Steer Unavailable Below
 Calibration in Progress
@@ -21,7 +21,7 @@ CAN Error: Check Harness Connections
 Joystick Mode
 System Initializing
 Be ready to take over at any time
-WARNING: This branch is not tested
+WARNING: This branch is a fork
 Dashcam mode
 Dashcam mode for unsupported car
 Car Unrecognized
@@ -31,40 +31,40 @@ Stock LKAS is on
 Turn off stock LKAS to engage
 Dashcam Mode
 Car Unrecognized
-BRAKE!
+BRAKE! to avoid collision
 Stock AEB: Risk of Collision
 Stock AEB: Risk of Collision
-BRAKE!
+BRAKE! to avoid collision
 Risk of Collision
 Lane Departure Detected
 Release Gas Pedal to Engage
 Live Parameters Invalid
 Live Parameters Invalid
 Steering Temporarily Unavailable
-Pay Attention
-Pay Attention
-Driver Distracted
+Please Pay Attention
+Please Pay Attention
+Distracted Driver
 DISENGAGE IMMEDIATELY
 Driver Distracted
 Touch Steering Wheel: No Face Detected
 Touch Steering Wheel
-Driver Unresponsive
+Unresponsive Driver
 DISENGAGE IMMEDIATELY
 Driver Unresponsive
-TAKE CONTROL
+TAKE CONTROL NOW
 Resume Driving Manually
-STOPPED
+Waiting 
 Press Resume to Go
 Steer Left to Start Lane Change Once Safe
 Steer Right to Start Lane Change Once Safe
-Car Detected in Blindspot
-Changing Lanes
+Caution, Vehicle Detected in Blindspot
+Assisted Lane Change
 E2E Long Enabled
-Be careful, It may work unexpectedly.
+Be careful, This may work unexpectedly.
 Turning Blinker On at Low Speed
-Steering Assist is temporarily disabled. Please steer yourself.
+Steering assist is temporarily disabled. Manual steer is needed.
 Hazard Flasher On
-Driver is Steering
+Driver Steering override
 Steer Assist is temporarily weakened.
 Take Control
 Assist Steering
@@ -76,7 +76,7 @@ GPS Malfunction
 Contact Support
 Sensor Malfunction
 Contact Support
-Openpilot Stock
+kisapilot Stock
 Distance and Curve Mode
 Distance Only Mode
 Curve Only Mode
@@ -93,11 +93,11 @@ Steering Temporarily Unavailable
 Steering Temporarily Unavailable
 Steering paused, ISG is working
 Slowing Down for SpeedLimit
-RES triggered for Departure
+SCC resume from stop
 Adjusting Cruise Gap
-SCC resume triggered
+SCC resume from manual braking
 Slowing Down for Curve
-Slowing Down for Vehicle Cut-In
+Slowing Down due to Cut-In
 Out of Storage
 Out of Storage
 No Data from Device Sensors
@@ -110,7 +110,7 @@ Distraction Level Too High
 System Overheated
 System Overheated
 System Overheated
-Gear not D
+Gear not Drive
 Calibration Invalid
 Remount Device and Recalibrate
 Calibration Invalid: Remount Device & Recalibrate
@@ -119,8 +119,8 @@ Calibration in Progress
 Calibration in Progress
 Door Open
 Door Open
-Seatbelt Unlatched
-Seatbelt Unlatched
+Seatbelt required
+Seatbelt required
 ESP Off
 ESP Off
 Low Battery
@@ -163,8 +163,8 @@ Cruise Fault: Restart the car to engage
 Cruise Fault: Restart the Car
 Reverse Gear
 Reverse Gear
-Gear not D
-Gear not D
+Gear not Drive
+Gear not Drive
 Cruise Is Off
 Planner Solution Error
 Planner Solution Error
@@ -172,10 +172,10 @@ Harness Malfunction
 Harness Malfunction
 Check Hardware
 Harness Malfunction
-openpilot Canceled
+kisapilot Canceled
 No close lead car
 No close lead car
-openpilot Canceled
+kisapilot Canceled
 Speed too low
 Speed Too High
 Model uncertain at this speed
@@ -184,11 +184,11 @@ Cruise Fault: Restart the car to engage
 Cruise Fault: Restart the Car
 LKAS is Off status
 LKAS turned On
-UnSleep Mode turned On
+Keep Awake Mode
 Slowing Down for SpeedBump
 Driver Override SCC Speed 
-Do Not Disturb Mode On
-Touch Top-Left Box to turn Off
+DND Mode On
+Touch Max Speed Box to turn Off
 Chime for Depart
 SCC speed changed for Waze alert
 Poor GPS reception
