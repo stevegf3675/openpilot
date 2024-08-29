@@ -58,7 +58,7 @@ Press Resume to Go
 Steer Left to Start Lane Change Once Safe
 Steer Right to Start Lane Change Once Safe
 Caution, Vehicle Detected in Blindspot
-Assisted Lane Change
+Blinker initiated Assisted Lane Change
 E2E Long Enabled
 Be careful, This may work unexpectedly.
 Turning Blinker On at Low Speed
@@ -92,7 +92,7 @@ Adaptive Cruise Disabled
 Steering Temporarily Unavailable
 Steering Temporarily Unavailable
 Steering paused, ISG is working
-Slowing Down for SpeedLimit
+Slowing down due to speedLimit change
 SCC resume from stop
 Adjusting Cruise Gap
 SCC resume from manual braking
