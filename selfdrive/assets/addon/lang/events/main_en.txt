@@ -58,7 +58,7 @@ Press Resume to Go
 Steer Left to Start Lane Change Once Safe
 Steer Right to Start Lane Change Once Safe
 Caution, Vehicle Detected in Blindspot
-Blinker initiated Assisted Lane Change
+Driver initiated openpilot assisted lane change
 E2E Long Enabled
 Be careful, This may work unexpectedly.
 Turning Blinker On at Low Speed
