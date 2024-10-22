@@ -1,9 +1,9 @@
-kisapilot Unavailable
+Kisapilot Unavailable
 TAKE CONTROL IMMEDIATELY
 kisapilot will disengage
 TAKE CONTROL IMMEDIATELY
 Always keep your eyes on road
-Speed Below
+Speed below
 Steer Unavailable Below
 Calibration in Progress
 Drive Above
@@ -76,10 +76,10 @@ GPS Malfunction
 Contact Support
 Sensor Malfunction
 Contact Support
-kisapilot Stock
+Openpilot Stock Mode
 Distance and Curve Mode
 Distance Only Mode
-Curve Only Mode
+SpeedLimit and Curve Mode
 Oneway Mode
 SpeedLimit Only Mode
 Brake!
@@ -92,12 +92,12 @@ Adaptive Cruise Disabled
 Steering Temporarily Unavailable
 Steering Temporarily Unavailable
 Steering paused, ISG is working
-Slowing down due to speedLimit change
-SCC resume from stop
+Slowing down for speedLimit change
+SCC resume from stop and go
 Adjusting Cruise Gap
 SCC resume from manual braking
 Slowing Down for Curve
-Slowing Down due to Cut-In
+Slowing Down for Cut-In
 Out of Storage
 Out of Storage
 No Data from Device Sensors
