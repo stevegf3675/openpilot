@@ -1005,10 +1005,10 @@ EVENTS: dict[int, dict[str, Alert | AlertCallbackType]] = {
     ET.NO_ENTRY: NoEntryAlert("Remount Detected: Recalibrating"),
   },
 
-  #EventName.doorOpen: {
-    #ET.SOFT_DISABLE: user_soft_disable_alert(tr(120)),
-    #ET.NO_ENTRY: NoEntryAlert(tr(121)),
-  #},
+  EventName.doorOpen: {
+    ET.SOFT_DISABLE: user_soft_disable_alert(tr(120)),
+    ET.NO_ENTRY: NoEntryAlert(tr(121)),
+  },
 
   EventName.seatbeltNotLatched: {
     ET.SOFT_DISABLE: user_soft_disable_alert(tr(122)),
