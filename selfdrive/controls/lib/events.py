@@ -888,11 +888,7 @@ EVENTS: dict[int, dict[str, Alert | AlertCallbackType]] = {
   },
 
   EventName.camSpeedDown: {
-    ET.WARNING: Alert(
-      tr(95),
-      "",
-      AlertStatus.normal, AlertSize.small,
-      Priority.LOW, VisualAlert.none, AudibleAlert.none, .5),
+    ET.WARNING: navi_alert,
   },
 
   EventName.standstillResButton: {
