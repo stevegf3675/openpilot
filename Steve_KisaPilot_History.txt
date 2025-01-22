@@ -1,0 +1,5 @@
+Steve_KisaPilot_History.txt
+20250122 - Fork Cloned from https://github.com/Donfyffe/openpilot
+Kisapilot_old
+20250125 Change: modified /controls/lib/events.py  (remove below steer warning)
+20250125 Change: modified /car/hyundai/values.py   (change min spped to 34mph)
